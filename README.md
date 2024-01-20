@@ -1,4 +1,5 @@
-# SCSS Compiler with BrowserSync
+# ez-web-dev
+## SCSS Compiler with BrowserSync
 
 This project provides a simple setup for live compiling SCSS files to CSS and serving an `index.html` file using BrowserSync. It's a convenient way to streamline your development workflow.
 

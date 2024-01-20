@@ -75,9 +75,8 @@ project-folder/
  npm i sass@latest browser-sync@latest concurrently@latest --save-dev
 ```
 
-    The Folder structure should look like this:
-
 ```bash
+ The Folder structure should look like this:
 scss-compiler/
 │
 ├── css/                   # Compiled CSS files

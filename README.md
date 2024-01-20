@@ -8,6 +8,8 @@ Make sure you have Node.js and npm installed on your machine. You can download a
 
 ## Getting Started
 
+---
+
 ### Method 1 (Clone)
 
 1. Clone this repository to your local machine:
@@ -37,6 +39,8 @@ Create the necessary directories, initial SCSS file, Start the development serve
 ```bash
 $ npm run dev
 ```
+
+---
 
 ### Method 2 (Make your Own)
 

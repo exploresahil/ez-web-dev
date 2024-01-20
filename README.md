@@ -13,19 +13,19 @@ Make sure you have Node.js and npm installed on your machine. You can download a
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/exploresahil/sass-compile-npm.git
+$ git clone https://github.com/exploresahil/sass-compile-npm.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd sass-compile-npm
+$ cd sass-compile-npm
 ```
 
 3. Install dependencies:
 
 ```bash
-npm install
+$ npm install
 ```
 
 #### Usage
@@ -35,7 +35,7 @@ npm install
 Create the necessary directories, initial SCSS file, Start the development server, which includes SCSS compilation and BrowserSync:
 
 ```bash
-npm run dev
+$ npm run dev
 ```
 
 ### Method 2 (Make your Own)
@@ -72,11 +72,11 @@ project-folder/
 3. Install latest dependencies as devDependencies.
 
 ```bash
- npm i sass@latest browser-sync@latest concurrently@latest --save-dev
+$ npm i sass@latest browser-sync@latest concurrently@latest --save-dev
 ```
 
 ```bash
- The Folder structure should look like this:
+The Folder structure should look like this:
 scss-compiler/
 │
 ├── css/                   # Compiled CSS files
@@ -104,7 +104,7 @@ scss-compiler/
 Create the necessary directories, initial SCSS file, Start the development server, which includes SCSS compilation and BrowserSync:
 
 ```bash
-npm run dev
+$ npm run dev
 ```
 
 This command will concurrently run the SCSS compilation and BrowserSync. The BrowserSync UI will be accessible at [http://localhost:3000](http://localhost:3000).
@@ -130,7 +130,7 @@ If you encounter issues, refer to the following tips:
 - Update npm packages:
 
   ```bash
-  npm update`
+  $ npm update
   ```
 
 - Adjust the Sass watcher with the `--poll` option:
